@@ -6,7 +6,7 @@ const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
 const pageNumber = document.getElementById("pageNumber");
 
-let currentPage = 1;
+let currentPage = 2;
 
 function fetchNews() {
   const query = searchInput.value;
